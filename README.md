@@ -2,32 +2,23 @@
 Hybrid Genetic Algorithm and Simulated Annealing implementation to search for the global optimum configuration and thereby to maximize the Annual Energy Production (AEP). 
 
 ```
-The Shell.ai Hackathon for Sustainable and Affordable Energy kicked-off on September 14th, focusing on a Windfarm 
+The Shell.ai Hackathon for Sustainable and Affordable Energy kicked-off on September 14th, 
+focusing on a Windfarm Layout Optimisation coding challenge. The participants were invited
+to optimise the placement of 50 wind turbines of ‘100 m rotor diameter to help maximise the 
+AEP (Annual Energy Production), each on a hypothetical offshore wind farm area. One of the 
+key problems of an unoptimized layout is the combined effect wind turbines can have on the
+wind speed distribution in a windfarm. As a wind turbine extractsenergy from incoming wind,
+it creates a region behind it downstream where the wind speed is decreased- this is called
+a wake region. Note that wind turbines automatically orient their rotors, to face incoming 
+wind from any direction. Due to the induced speed deficit, a turbine placed inside the wake
+region of an upstream turbine will naturally generate reduced electrical power. This
+inter-turbine interference is known as a wake effect. An optimal windfarm layout is
+important to ensure a minimum loss of power during this combined wake effect.
 
-Layout Optimisation coding challenge. The participants were invited to optimise the placement of 50 wind turbines 
-
-of ‘100 m rotor diameter to help maximise the AEP (Annual Energy Production), each on a hypothetical offshore wind 
-
-farm area. One of the key problems of an unoptimized layout is the combined effect wind turbines can have on the 
-
-wind speed distribution in a windfarm. As a wind turbine extracts energy from incoming wind, it creates a region 
-
-behind it downstream where the wind speed is decreased- this is called a wake region. Note that wind turbines 
-
-automatically orient their rotors, to face incoming wind from any direction. Due to the induced speed deficit, a 
-
-turbine placed inside the wake region of an upstream turbine will naturally generate reduced electrical power. This 
-
-inter-turbine interference is known as a wake effect. An optimal windfarm layout is important to ensure a minimum 
-
-loss of power during this combined wake effect.
-
-
-The contestants faced challenges such as a high dimensionality, complex multimodality and the discontinuous nature 
-
-of the search space. This made optimising the layout analytics difficult. But, armed with optimisation strategies 
-
-and computer algorithms, around 5000 teams signed up to compete in this challenge.
+The contestants faced challenges such as a high dimensionality, complex multimodality and the
+discontinuous nature of the search space. This made optimising the layout analytics difficult.
+But, armed with optimisation strategies and computer algorithms, around 5000 teams signed up to
+compete in this challenge.
 ```
 
 More information at [Hackerearth](https://www.hackerearth.com/challenges/competitive/shell-hackathon/), [Shell](https://www.shell.in/energy-and-innovation/ai-hackathon.html#vanity-aHR0cHM6Ly93d3cuc2hlbGwuaW4vaGFja2F0aG9uLmh0bWw), [Slides](https://www.slideshare.net/Surajk15/windfarm-shell-hackathon)
